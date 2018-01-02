@@ -1,0 +1,16 @@
+.login_form{font-size:26rpx;}
+.login_form .section{background:#F7F7F7; height:70rpx;line-height:70rpx;width:90%;margin:0px auto;margin-bottom:20rpx;border-radius:10px;}
+.login_form .section1{margin-top:30rpx;}
+.login_form .section input{color:#000;padding-left:20rpx;line-height:70rpx;height:70rpx;}
+.login_form .section input::-webkit-input-placeholder,.login_form .section input:-moz-placeholder{color:#999;}
+.login_form .input_code{width:60%;float:left;}
+.login_form .btn_code{float:right;width:35%;font-size:26rpx;border:none;color:red;}
+.login_form .btn_code:after{border:none;}
+.login_form .btn_code[disabled]{color:#999; }
+.login_form  .btn-area .btn_primary{width:90%;margin:0px auto;border:none;color:#fff;}
+.login_form  .btn-area .btn_primary[disabled]{background:#999;}
+.login_form  .btn-area .btn_primary::after{border:none;}
+.userinfo {display: flex;flex-direction: column;align-items: center;margin-top:40rpx;}
+.userinfo-avatar {width: 128rpx;height: 128rpx;margin: 20rpx;border-radius: 50%;}
+.userinfo-nickname {color: #999;font-size:30rpx;}
+.usermotto {margin-top: 10px;}

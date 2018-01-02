@@ -1,0 +1,15 @@
+<!--pages/event/index.wxml-->
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{kvarray}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"  mode="widthFix"></image>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="flex-item brand_list" wx:for="{{zhihu}}" wx:for-item="item" style="flex-direction:column;"> 
+  <text class="texttt">{{item.title}}</text>
+  <image src="{{item.imgbnr}}" class="bnrimg"  mode="widthFix"></image>
+  <text class="textdscp">{{item.dscp}}</text>
+</view>
+ <footer></footer>

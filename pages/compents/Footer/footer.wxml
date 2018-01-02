@@ -1,0 +1,7 @@
+<!--pages/compents/Footer/footer.wxml-->
+ <view class="flex-fixwrap" style="flex-drirection:row;">
+    <view class="flex-fix {{menu_zhen}}"><text class="icon iconfont icon-xiaozhen1"></text><text>小镇</text></view>
+    <view class="flex-fix {{menu_map}}"><text class="icon iconfont icon-ditu1"></text><text>地图</text></view>
+    <view class="flex-fix {{menu_sale}}"><text class="icon iconfont icon-shangjia"></text><text>商家</text></view>
+    <view class="flex-fix {{menu_member}}" bindtap='gonavmember'><text class="icon iconfont icon-huiyuan"></text><text>会员</text></view>
+  </view>

@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{kvarray}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"  mode="widthFix"></image>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="section">
+ <!--<view class="flex-wrp" style="flex-direction:row;">
+    <view class="flex-item">小镇</view>
+    <view class="flex-item">地图</view>
+    <view class="flex-item">商家</view>
+    <view class="flex-item">会员</view>
+  </view>-->
+  <view class="flex-wrp" style="flex-direction:column;">
+    <view class="flex-item-V" wx:for="{{eventarray}}" wx:for-item="item" catchtap="goevent"  wx:key="index" data-postid="{{item.id}}">
+      <image src="{{item.imgbnr}}" class="img_item1" mode="widthFix"></image>
+      <text class="text1">{{item.title}}</text>
+   </view>   
+  </view>
+  <!--公用页脚 start-->
+   <footer>
+  </footer>
+  <!--公用页脚 end-->
+</view>

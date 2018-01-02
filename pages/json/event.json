@@ -1,0 +1,18 @@
+{
+  "data": [
+  {
+      "id": 0,
+      "imgbnr": "https://xiaochengxu.andoner.cn/json/bnr1.jpg",
+      "imgkv":"https://xiaochengxu.andoner.cn/json/bnr1.jpg",
+      "title": "活动举办推文1",
+      "dscp": "简介1简介1简介1简介1简介1简介1简介1简介1简介1简介1"
+  },
+  {
+    "id": 1,
+    "imgbnr": "https://xiaochengxu.andoner.cn/json/bnr1.jpg",
+    "imgkv": "https://xiaochengxu.andoner.cn/json/bnr1.jpg",
+    "title": "活动2",
+    "dscp": "简介2简介2简介2简介2简介2简介2简介2简介2"
+  }
+]
+}

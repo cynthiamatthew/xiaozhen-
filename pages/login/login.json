@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "登陆注册",
+  "usingComponents": {
+    "footer": "/pages/compents/Footer/footer"
+  }
+}

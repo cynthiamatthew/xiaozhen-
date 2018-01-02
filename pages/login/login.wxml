@@ -1,0 +1,21 @@
+<!--pages/login/login.wxml-->
+ <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+<form bindsubmit="formSubmit" bindreset="formReset" class="login_form">
+<view class="section section1">
+<input type="text" placeholder='请输入手机号码' auto-focus='' value="" name="user_phone" bindinput="userphoneInput" />
+</view>
+<view class="section">
+  <input  type="text" placeholder='请输入验证码' class="input_code" value="" name="user_pwd" bindinput="userpwdInput" bindfocus='userpwdInput' />
+  <text> | </text><button class="btn_code" disabled='{{!phone}}' bindtap='sendcode'>{{time}}</button>
+</view>
+<view class="btn-area">
+    <button formType="submit" class="btn_primary" disabled='{{disabled}}'>登录并绑定</button>
+  </view>
+</form>
+<footer menu_member="active"></footer>

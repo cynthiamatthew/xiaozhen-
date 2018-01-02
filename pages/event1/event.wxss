@@ -1,0 +1,10 @@
+/* pages/event/index.wxss */
+.slide-image,.bnrimg{width:100%;}
+.flex-wrp{
+  margin-top:10px;
+  display:flex;  
+}
+.brand_list{margin-top:10px;width:90%;margin-left:5%;}
+.brand_list image{margin-top:5px;}
+.brand_list text{font-size:30rpx;margin-bottom:20px;}
+.brand_list .texttt{font-size:32rpx;}
